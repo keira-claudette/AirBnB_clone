@@ -8,3 +8,11 @@ header {
     vertical-align: middle;
     padding-left: 20px;
 }
+
+header::before {
+    content: url(../images/logo.png);
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    align-items: center;
+}
